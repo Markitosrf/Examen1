@@ -28,11 +28,13 @@ public class Persona {
         this.estado=estado;
         this.facturas=facturas;
     }
-    public double calcular(){
-        for(int i=0;i<this.facturas;i++){
-            
-        }
+    public double getmonto(){
+        double interes = monto * 0.5;
+        return monto + interes;
     }
+            
+        
+    
       
 }
 
